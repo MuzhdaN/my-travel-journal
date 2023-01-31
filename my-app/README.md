@@ -1,13 +1,6 @@
-# Getting Started
+##  **My Travel Journal**
+- This is a personal tavel journal. The design has been insipred from the FreeCodeAcademy youtube [video](https://www.youtube.com/watch?v=bMknfKXIFA8) and the Scrimba React [course](https://scrimba.com/learn/learnreact). 
+- The developer has edited the design. 
+- This is a full responsive site, 
 
-### In the terminal do:
-cd my-app
-npm install
-
-### You can then run the project with the command
-npm start
-
-### Items to be aware of
-Inside the folder named src you will find a file named posts.json. This file will not be used until a challenge later in the content.  
-
-For convenience react comes installed in this template. A package named axios has also been installed as it will be required in a challenge later.
+Check the [live site](). (To open it in a another tab press Ctrl and click it.)
