@@ -4,14 +4,11 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
     outline: 0;
+    margin: 0;
+    padding: 0;
 }
-a {
-    text-decoration: none;
-}
-.App {
-    height: 100vh;
-    border: 4px solid greenyellow;
-}
+
+/* Navbar */
 
 .navbar {
     display: flex;
@@ -24,7 +21,85 @@ a {
 }
 
 .nav-title{
+    color: #fff;
     margin-left: 0.7rem;
     font-weight: 900;
     letter-spacing: 1px;
+}
+
+/* cards  section */
+
+.card-container {
+    border-radius: 0.5rem;
+    background-color: rgba(225, 225, 225, 0.333);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+    padding: 1rem;
+}
+
+.card-img {
+    border-radius: 1rem;
+}
+
+.location-spot {
+    margin: 1rem;
+}
+
+.location,
+a {
+    padding: 0.5rem;
+}
+
+.location {
+    color: #2b283a69;
+    line-height: 12px;
+    letter-spacing: 0.01rem;
+    color: #2B283A;
+    text-transform: uppercase;
+}
+
+a { 
+    color: #4c15ff;
+}
+
+a:hover {
+    color: #F55A5A;
+    text-decoration: underline;
+}
+
+.info {
+    padding: 0 1rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    padding: 0.5rem 0;
+}
+
+small {
+    font-weight: 700;
+    color: #2B283A;
+}
+
+p {
+    margin-top: 0.5rem;
+    font-weight: 400;
+    line-height: 150%;
+    color: #2B283A;
+
+}
+
+
+
+/* responsiveness for mobile devices */
+@media only screen and (max-width: 600px) {
+    .card-container {
+        flex-wrap: wrap;
+    }
+    .card-img {    
+        max-width: 100%;  
+    }
 }
