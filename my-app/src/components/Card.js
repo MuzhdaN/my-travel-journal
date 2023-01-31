@@ -5,7 +5,7 @@ import pin from "./images/pin.png";
 function Card(props) {
     return (
         <div className='card-container'>
-            <img src={props.item.imageUrl} className='card-img' />
+            <img src={props.item.imageUrl} alt="images fetched from data" className='card-img' />
             <div className='content'>
                 <div className='location-spot'>
                     <img src={pin} alt='location pin'/>
