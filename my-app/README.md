@@ -4,4 +4,4 @@
 - This is a full responsive site.
 - The purpose of this project was to understand props and mapping data. 
 
-Check the [live site](). (To open it in a another tab press Ctrl and click it.)
+Check the [live site](https://muzhdan.github.io/my-travel-journal/). (To open it in a another tab press Ctrl and click it.)
